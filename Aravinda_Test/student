@@ -1,0 +1,11 @@
+create table student (
+    id INTEGER primary KEY,
+	Roll_number INTEGER,
+	Name VARCHAR(20),
+	 Age INTEGER,
+	Total_marks INTEGER,
+	Grade VARCHAR
+
+);
+
+select * from student
